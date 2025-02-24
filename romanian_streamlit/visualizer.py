@@ -16,10 +16,10 @@ TOKEN_ATTRS = ["idx", "text", "lemma_", "pos_", "tag_", "dep_", "head", "morph",
                "ent_type_", "ent_iob_", "shape_", "is_alpha", "is_ascii",
                "is_digit", "is_punct", "like_num", "is_sent_start"]
 # Currently these attrs are the same, but they might differ in the future.
-SPAN_ATTRS = NER_ATTRS 
+SPAN_ATTRS = NER_ATTRS
 
 # fmt: on
-FOOTER = """<span style="font-size: 0.75em">&hearts; Built with [`spacy-streamlit`](https://github.com/explosion/spacy-streamlit)</span>"""
+FOOTER = """<span style="font-size: 0.75em">&hearts; Built by [`Stefan Bogdanel`](https://github.com/izdrail)</span>"""
 
 
 def visualize(
